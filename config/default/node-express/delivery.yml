@@ -27,7 +27,7 @@ spec:
         carto.run/workload-name: node-express
     spec:
       containers:
-      - image: tanzukr.azurecr.io/tanzu-application-platform/supply-chain/node-express-default@sha256:d4a68e946947c4f42facccf0fc83aa5594b28d2e9a3f2033719940128b452f77
+      - image: tanzukr.azurecr.io/tanzu-application-platform/supply-chain/node-express-default@sha256:3a83920eee58dec0d4d44a8e604a80ef5c1e3c4260b43571266521b568df41f4
         name: workload
         resources: {}
         securityContext:
