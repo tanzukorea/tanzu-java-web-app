@@ -44,7 +44,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: tanzukr.azurecr.io/tanzu-application-platform/supply-chain/tanzu-java-web-app-gitops-default@sha256:d25cbf1b5e452c8f1b3215f0414faf89c319a478bcbbf030788516aa357ea54b
+        image: tanzukr.azurecr.io/tanzu-application-platform/supply-chain/tanzu-java-web-app-gitops-default@sha256:7fceda926391a9f58660b1e3d8b49f8d763f7f5a5ad5eb40549d62acb5d49eec
         name: workload
         ports:
         - containerPort: 8080
