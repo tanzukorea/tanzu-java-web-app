@@ -44,7 +44,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: harbor.tanzukr.com/tanzu-application-platform/supply-chain/tanzu-java-web-app-live-view-default@sha256:d164cefcf7e2fb452c7fa490a71a75c497b82319c459819f9714cf2cb751ab14
+        image: harbor.tanzukr.com/tanzu-application-platform/supply-chain/tanzu-java-web-app-live-view-default@sha256:aad18bf2e84addb72a47e366a76ac6b4391160d3007ea786a70067ca4f8b0d05
         name: workload
         ports:
         - containerPort: 8080
